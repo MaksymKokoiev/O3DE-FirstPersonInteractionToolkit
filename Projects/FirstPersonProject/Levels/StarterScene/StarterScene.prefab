@@ -8219,6 +8219,27 @@
                                     "VariableName": "switchRef",
                                     "InitialValueSource": 1
                                 }
+                            ],
+                            "overridesUnused": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": "Light_Switch"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{824129A9-911E-4DD3-9D43-CD8F2CB4F786}"
+                                    },
+                                    "VariableName": "LightSwitchTrig",
+                                    "InitialValueSource": 1
+                                }
                             ]
                         }
                     }
@@ -16083,6 +16104,28 @@
                         }
                     }
                 },
+                "AudioProxyComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 6137463386488898426,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "EditorAudioEnvironmentComponent": {
+                    "$type": "EditorAudioEnvironmentComponent",
+                    "Id": 816504287335747789,
+                    "Environment name": {
+                        "controlName": "roomaux"
+                    }
+                },
+                "EditorAudioTriggerComponent": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 8997430929437071869,
+                    "Play Trigger": {
+                        "controlName": "Light_Switch"
+                    },
+                    "Obstruction Type": "MultiRay"
+                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 10486599616785299809
@@ -16303,6 +16346,27 @@
                                         "m_id": "{6DB3725C-8E7C-4A1B-9125-4C0C1C66B58F}"
                                     },
                                     "VariableName": "switchRef",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overridesUnused": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": "Light_Switch"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{824129A9-911E-4DD3-9D43-CD8F2CB4F786}"
+                                    },
+                                    "VariableName": "LightSwitchTrig",
                                     "InitialValueSource": 1
                                 }
                             ]
@@ -22210,6 +22274,33 @@
             "Id": "Entity_[91090459582094]",
             "Name": "Shack",
             "Components": {
+                "AudioProxyComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 2300593560224693874,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "EditorAudioEnvironmentComponent": {
+                    "$type": "EditorAudioEnvironmentComponent",
+                    "Id": 17641101678498807350,
+                    "Environment name": {
+                        "controlName": "roomaux"
+                    }
+                },
+                "EditorBoxShapeComponent": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 15381112616511514114,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                10.5,
+                                11.0,
+                                5.0
+                            ]
+                        }
+                    }
+                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 5315959633457194903
@@ -22247,6 +22338,30 @@
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 14547328311516460612
+                },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 956780932332793565,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{A871C2D6-9712-5592-9CE2-15093405F414}",
+                            "path": "Assets/Scripts/Audio_Trigger_Volume.scriptcanvas"
+                        },
+                        "sourceName": "Audio_Trigger_Volume.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{A871C2D6-9712-5592-9CE2-15093405F414}",
+                                "path": "Assets/Scripts/Audio_Trigger_Volume.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "EditorTagComponent": {
+                    "$type": "EditorTagComponent",
+                    "Id": 9664370447627282408,
+                    "Tags": [
+                        "roomaux"
+                    ]
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
