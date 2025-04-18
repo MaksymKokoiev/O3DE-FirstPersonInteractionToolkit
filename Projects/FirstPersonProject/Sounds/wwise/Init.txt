@@ -5,7 +5,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	428078546	roomaux			\Default Work Unit\Master Audio Bus\roomaux	
 
 Effect plug-ins	ID	Name	Type				Notes
-	1551236760	Small_Wooden_Room1	Wwise Matrix Reverb			
+	1904434771	Medium_Room1	Wwise Matrix Reverb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Type="User" Language="SFX" Hash="{EC24A787-6104-C21B-8BFD-EA26F33F3647}">
+		<SoundBank Id="782826392" Type="User" Language="SFX" Hash="{5BCEBEE3-5E95-0937-3435-93409D04BF10}">
 			<ShortName>default</ShortName>
 			<Path>default.bnk</Path>
 			<Media>
@@ -382,6 +382,9 @@
 						<MediaRef Id="748952675"/>
 						<MediaRef Id="950650839"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="428078546" Name="roomaux"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2934549620" Name="Open_Door">
 					<MediaRefs>
@@ -517,12 +520,12 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5F965AAA-559A-94F4-7CA5-AA8544CFCDA4}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C86319FE-273D-214A-9CCB-BB54997B5A6A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="1551236760" Name="Small_Wooden_Room1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="1904434771" Name="Medium_Room1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -536,7 +539,7 @@
 				<AuxBus Id="428078546" Name="roomaux">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="1551236760"/>
+							<PluginRef Id="1904434771"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -556,5 +559,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7334D89F-7646-2EB1-3C21-9EFC4CC718CE}</FileHash>
+	<FileHash>{F692B94D-C6BE-ED21-6CFE-E3A6EE101917}</FileHash>
 </SoundBanksInfo>

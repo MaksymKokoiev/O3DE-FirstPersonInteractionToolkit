@@ -168,6 +168,11 @@
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -689,7 +694,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1147,7 +1152,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1671,7 +1676,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2272,8 +2277,11 @@
 						<RandomSequenceContainer Name="Light_Switch" ID="{70833262-203E-4D13-9C3D-4B39C228A1AF}" ShortID="607947144">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2288,6 +2296,7 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2380,6 +2389,9 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
 								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="roomaux" ID="{35704815-1509-4597-A194-3B177E2344AD}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="LightSwitch-001" ID="{B4D2FEFB-8E48-4E26-A4FF-4FD3A042C83F}" ShortID="971393040">
@@ -2471,6 +2483,9 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{5B211CDD-AA71-4E6E-8DC7-22D4D0E88ECE}"/>
+							</PositioningInfo>
 						</RandomSequenceContainer>
 						<BlendContainer Name="Open_Door" ID="{71B360F9-02BE-4794-BA7F-192DB2EF81EA}" ShortID="281668852">
 							<PropertyList>
