@@ -1,0 +1,80 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{035F12B3-BBBF-58E3-A7DC-9D8F6FDA0800}",
+            "name": "Untitled",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "untitled_obj.Cube"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "untitled_obj"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "untitled",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "untitled_obj",
+                    "untitled_obj.Cube"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{F64F4AC9-6C10-554C-A639-C3EB2F71EE03}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_untitled_14F87D0C_8624_5CFB_A163_064C3B3F2DA2_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "untitled_obj.Cube"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{14F87D0C-8624-5CFB-A163-064C3B3F2DA2}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Art/untitled_obj.procprefab",
+            "id": "{480FAD08-FEF4-5E70-A3C1-C49EC5FE572B}"
+        }
+    ]
+}

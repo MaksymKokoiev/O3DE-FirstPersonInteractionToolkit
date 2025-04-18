@@ -1,0 +1,27 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "../Materials/Grass/patchy-meadow1_albedo.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.textureMap": "../Materials/Grass/patchy-meadow1_metallic.png",
+        "normal.textureMap": "../Materials/Grass/patchy-meadow1_normal-ogl.png",
+        "occlusion.diffuseTextureMap": "../Materials/Grass/patchy-meadow1_ao.png",
+        "opacity.factor": 1.0,
+        "parallax.factor": 0.019999999552965164,
+        "parallax.offset": 0.019999999552965164,
+        "parallax.textureMap": "../Materials/Grass/patchy-meadow1_height.png",
+        "roughness.textureMap": "../Materials/Grass/patchy-meadow1_roughness.png"
+    }
+}

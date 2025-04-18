@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A42623DF-F587-47CD-B8B0-D38A3A2DB704}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A42623DF-F587-47CD-B8B0-D38A3A2DB704}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="do_nothing" ID="{56D6EA09-1C7B-42C8-9434-B5D3624E92B0}"/>
+				<Event Name="get_focus" ID="{F34BD743-654F-46A1-9EA9-BE46224D9F74}">
+					<ChildrenList>
+						<Action Name="" ID="{C0E8300E-A64C-4574-87D8-E8499D78F137}" ShortID="712983038">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lose_focus" ID="{4E07F272-C8FD-4E03-B615-9207332E19DA}">
+					<ChildrenList>
+						<Action Name="" ID="{3431715C-BF6C-4341-A0CB-EF792DA3DA40}" ShortID="171493104">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mute_all" ID="{74483CC1-7E8B-4BDE-B590-1E88E8D28FE2}">
+					<ChildrenList>
+						<Action Name="" ID="{63C42FD3-0CAF-4C0E-A02D-386EA539DCC4}" ShortID="658544379">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="unmute_all" ID="{A145D9AA-C381-4AC7-9378-83DA7891903B}">
+					<ChildrenList>
+						<Action Name="" ID="{25242E1E-2FD1-45C1-B4E5-CD8E0AE79388}" ShortID="1007572928">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Blaster_Shot" ID="{7B05EAAD-4DEC-43E8-B397-1217E376F3B7}">
+					<ChildrenList>
+						<Action Name="" ID="{1C51545A-AC75-462E-BC8C-0EA920E32F34}" ShortID="748674742">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_blaster_no_trigger_shot_1" ID="{9D598E92-B93A-416E-AC49-228104A021BA}" WorkUnitID="{7458331F-AEA0-4860-9FFF-D3D504856040}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Start_Mov" ID="{6F8307DC-A5CA-4D8B-9CFC-DA17AEDF36CD}">
+					<ChildrenList>
+						<Action Name="" ID="{D7107D9F-0C2A-4CEC-864D-10754E0E5F16}" ShortID="610987312">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{4054DF0A-FCB0-4E1D-B3ED-F71564A79F2A}" WorkUnitID="{7458331F-AEA0-4860-9FFF-D3D504856040}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Mov" ID="{9232B39D-320A-4850-835A-36CFC25F64D6}">
+					<ChildrenList>
+						<Action Name="" ID="{D2941AB5-E20F-4057-9B93-970FD6AA87B4}" ShortID="486176913">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{4054DF0A-FCB0-4E1D-B3ED-F71564A79F2A}" WorkUnitID="{7458331F-AEA0-4860-9FFF-D3D504856040}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Open_Door" ID="{4AD78617-66A3-47DF-A920-64788D8D408D}">
+					<ChildrenList>
+						<Action Name="" ID="{882102B8-437C-4C32-9487-86A1E724F693}" ShortID="149257685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open_Door" ID="{71B360F9-02BE-4794-BA7F-192DB2EF81EA}" WorkUnitID="{7458331F-AEA0-4860-9FFF-D3D504856040}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Light_Switch" ID="{A7F1002E-9C59-444A-BC71-94563F32D0D4}">
+					<ChildrenList>
+						<Action Name="" ID="{76A024F7-54AD-457A-A258-1388DC61AB66}" ShortID="550457326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light_Switch" ID="{70833262-203E-4D13-9C3D-4B39C228A1AF}" WorkUnitID="{7458331F-AEA0-4860-9FFF-D3D504856040}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

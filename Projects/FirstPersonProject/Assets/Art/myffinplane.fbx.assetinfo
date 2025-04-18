@@ -1,0 +1,90 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{6499AED3-7FD1-5CAC-9D21-1296AF934633}",
+            "name": "myffinplane",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Plane",
+                    "RootNode.Plane.DefaultMaterial",
+                    "RootNode.Plane.UVMap",
+                    "RootNode.Plane.custom_properties",
+                    "RootNode.Plane.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "myffinplane",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Plane",
+                    "RootNode.Plane.DefaultMaterial",
+                    "RootNode.Plane.UVMap",
+                    "RootNode.Plane.custom_properties",
+                    "RootNode.Plane.transform"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    }
+                ]
+            },
+            "id": "{FCE97211-E432-5366-ADB9-2ADD5FA6740D}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_myffinplane_370E17C9_4A66_5593_B32A_A3E337A7F7CB_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Plane"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{370E17C9-4A66-5593-B32A-A3E337A7F7CB}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Art/myffinplane_fbx.procprefab",
+            "id": "{8D84A92A-330C-5092-B56A-34F7C8690F30}"
+        }
+    ]
+}

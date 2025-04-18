@@ -1,0 +1,82 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{50F5310E-6E84-5A49-9174-269760577BFD}",
+            "name": "box1",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cube"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "box1",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cube"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true,
+                        "scale": 0.10000000149011612
+                    }
+                ]
+            },
+            "id": "{C1EEED40-CBAF-5251-968E-61C76FCF8A59}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_box1_61B35C2C_E263_57D2_8C65_E78A5145DB46_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Cube"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{61B35C2C-E263-57D2-8C65-E78A5145DB46}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Art/box1_fbx.procprefab",
+            "id": "{0C8D6BD1-2572-5474-B000-21B9A811FA6F}"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "../Materials/Gravel/desert-rocks1-albedo.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "../Materials/Gravel/desert-rocks1-Normal-ogl.png",
+        "occlusion.diffuseTextureMap": "../Materials/Gravel/desert-rocks1-ao.png",
+        "opacity.factor": 1.0,
+        "parallax.algorithm": "Relief",
+        "parallax.factor": 0.02199999988079071,
+        "parallax.offset": 0.012000000104308128,
+        "parallax.textureMap": "../Materials/Gravel/desert-rocks1-Height.png",
+        "roughness.textureMap": "../Materials/Gravel/desert-rocks1-Roughness.png"
+    }
+}

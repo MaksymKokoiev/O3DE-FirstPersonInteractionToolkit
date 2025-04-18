@@ -1,0 +1,89 @@
+<ATLConfig atl_name="default_controls">
+	<AudioTriggers>
+		<ATLTrigger atl_name="Light_Switch">
+			<WwiseEvent wwise_name="Light_Switch"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Open_Door">
+			<WwiseEvent wwise_name="Open_Door"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Stop_Mov">
+			<WwiseEvent wwise_name="Stop_Mov"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Start_Mov">
+			<WwiseEvent wwise_name="Start_Mov"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Play_Blaster_Shot">
+			<WwiseEvent wwise_name="Play_Blaster_Shot"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="get_focus"/>
+		<ATLTrigger atl_name="lose_focus"/>
+		<ATLTrigger atl_name="mute_all"/>
+		<ATLTrigger atl_name="unmute_all"/>
+		<ATLTrigger atl_name="do_nothing"/>
+	</AudioTriggers>
+	<AudioRtpcs>
+		<ATLRtpc atl_name="Velocity">
+			<WwiseRtpc wwise_name="Velocity"/>
+		</ATLRtpc>
+		<ATLRtpc atl_name="object_speed"/>
+	</AudioRtpcs>
+	<AudioSwitches>
+		<ATLSwitch atl_name="Material">
+			<ATLSwitchState atl_name="Concrete">
+				<WwiseSwitch wwise_name="Material">
+					<WwiseValue wwise_name="Concrete"/>
+				</WwiseSwitch>
+			</ATLSwitchState>
+			<ATLSwitchState atl_name="Grass">
+				<WwiseSwitch wwise_name="Material">
+					<WwiseValue wwise_name="Grass"/>
+				</WwiseSwitch>
+			</ATLSwitchState>
+			<ATLSwitchState atl_name="Gravel">
+				<WwiseSwitch wwise_name="Material">
+					<WwiseValue wwise_name="Gravel"/>
+				</WwiseSwitch>
+			</ATLSwitchState>
+			<ATLSwitchState atl_name="Puddle">
+				<WwiseSwitch wwise_name="Material">
+					<WwiseValue wwise_name="Puddle"/>
+				</WwiseSwitch>
+			</ATLSwitchState>
+		</ATLSwitch>
+		<ATLSwitch atl_name="ObstructionOcclusionCalculationType">
+			<ATLSwitchState atl_name="Ignore">
+				<ATLSwitchRequest atl_name="ObstructionOcclusionCalculationType">
+					<ATLValue atl_name="Ignore"/>
+				</ATLSwitchRequest>
+			</ATLSwitchState>
+			<ATLSwitchState atl_name="SingleRay">
+				<ATLSwitchRequest atl_name="ObstructionOcclusionCalculationType">
+					<ATLValue atl_name="SingleRay"/>
+				</ATLSwitchRequest>
+			</ATLSwitchState>
+			<ATLSwitchState atl_name="MultiRay">
+				<ATLSwitchRequest atl_name="ObstructionOcclusionCalculationType">
+					<ATLValue atl_name="MultiRay"/>
+				</ATLSwitchRequest>
+			</ATLSwitchState>
+		</ATLSwitch>
+		<ATLSwitch atl_name="object_velocity_tracking">
+			<ATLSwitchState atl_name="on">
+				<ATLSwitchRequest atl_name="object_velocity_tracking">
+					<ATLValue atl_name="on"/>
+				</ATLSwitchRequest>
+			</ATLSwitchState>
+			<ATLSwitchState atl_name="off">
+				<ATLSwitchRequest atl_name="object_velocity_tracking">
+					<ATLValue atl_name="off"/>
+				</ATLSwitchRequest>
+			</ATLSwitchState>
+		</ATLSwitch>
+	</AudioSwitches>
+	<AudioEnvironments>
+		<ATLEnvironment atl_name="roomaux">
+			<WwiseAuxBus wwise_name="roomaux"/>
+		</ATLEnvironment>
+	</AudioEnvironments>
+</ATLConfig>
+

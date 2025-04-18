@@ -1,0 +1,27 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "../Materials/Bog/bog_albedo.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.textureMap": "../Materials/Bog/bog_metallic.png",
+        "normal.textureMap": "../Materials/Bog/bog_normal-ogl.png",
+        "occlusion.diffuseTextureMap": "../Materials/Bog/bog_ao.png",
+        "opacity.factor": 1.0,
+        "parallax.factor": 0.00800000037997961,
+        "parallax.offset": 0.03400000184774399,
+        "parallax.textureMap": "../Materials/Bog/bog_height.png",
+        "roughness.textureMap": "../Materials/Bog/bog_roughness.png"
+    }
+}

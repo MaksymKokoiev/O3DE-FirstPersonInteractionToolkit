@@ -1,0 +1,2807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7458331F-AEA0-4860-9FFF-D3D504856040}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{7458331F-AEA0-4860-9FFF-D3D504856040}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="gun_blaster_no_trigger_shot_1" ID="{9D598E92-B93A-416E-AC49-228104A021BA}" ShortID="720718547">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{9C3D38B6-F961-40FA-B5A3-6F97ABD43737}" ShortID="966929652">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{CF16D10D-C396-4BC9-AAA3-4546850B5F2F}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="gun_blaster_no_trigger_shot_1" ID="{607C855B-787A-42BF-A3FD-4226155EAC27}">
+							<Language>SFX</Language>
+							<AudioFile>gun_blaster_no_trigger_shot_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="228546115"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="gun_blaster_no_trigger_shot_1" ID="{607C855B-787A-42BF-A3FD-4226155EAC27}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="Player" ID="{5CD5013F-DAEB-4DAD-8D97-3C6F44BF0B07}" ShortID="258447151">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps" ID="{4054DF0A-FCB0-4E1D-B3ED-F71564A79F2A}" ShortID="486349606">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C362BE06-E292-4DBA-9D04-AA064D90498C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1.5"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Concrete" ID="{F8814CC2-A327-4DEC-BD07-2083DC6347F7}" WorkUnitID="{34B80459-1B97-4E4C-A9E3-1040B3047F06}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Material" ID="{045E168E-A0CC-49A5-AF3D-A09A59444BFD}" WorkUnitID="{34B80459-1B97-4E4C-A9E3-1040B3047F06}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Concrete" ID="{4ED5BD8F-B020-408A-AA2A-9924C755BE06}" ShortID="452252930">
+									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_01" ID="{F7E32F62-0192-46EE-B16B-04E06AF1F79E}" ShortID="820437039">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_01" ID="{8DFA4DB2-ADB8-4D14-A8F5-9E1D6124FD5D}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="456386806"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_01" ID="{8DFA4DB2-ADB8-4D14-A8F5-9E1D6124FD5D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_02" ID="{F50898D3-CDBB-416A-AF44-AFDCC8FA77D7}" ShortID="985774181">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_02" ID="{AA5C4A6F-EFB5-44ED-9599-A18BA5A78CD3}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="638504098"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_02" ID="{AA5C4A6F-EFB5-44ED-9599-A18BA5A78CD3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_03" ID="{A158329F-495B-4F62-9B19-3931B470C3AF}" ShortID="1033327800">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_03" ID="{DE7B383E-29C2-4F60-AA59-270AB0F18BEF}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="840493079"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_03" ID="{DE7B383E-29C2-4F60-AA59-270AB0F18BEF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_04" ID="{7F888B9E-DA47-42FD-859A-2B06115A6E25}" ShortID="508521609">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_04" ID="{79CF86C6-026A-49B9-BC8D-81E930E8500C}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="723914433"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_04" ID="{79CF86C6-026A-49B9-BC8D-81E930E8500C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_05" ID="{9AA0D3A6-03FE-41A8-B986-EBD9F4F5C108}" ShortID="1007920681">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_05" ID="{D740E009-38AF-4D65-9B0A-E6BEFC66AE81}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="823275296"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_05" ID="{D740E009-38AF-4D65-9B0A-E6BEFC66AE81}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_06" ID="{1877ABC1-431A-4E55-A9EC-BE587A090A8C}" ShortID="66128534">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_06" ID="{DB58D727-CA58-453A-85E8-D3BE331F3C5E}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="950832186"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_06" ID="{DB58D727-CA58-453A-85E8-D3BE331F3C5E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_07" ID="{1AF20CEF-F798-4357-9EAD-C2F7354286BF}" ShortID="449513781">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_07" ID="{64B1A447-141B-4AAE-95D7-A4460A170CED}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1057938833"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_07" ID="{64B1A447-141B-4AAE-95D7-A4460A170CED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_08" ID="{9EF2AD63-1C69-4158-8C37-2F96ADE4DC1C}" ShortID="501829893">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_08" ID="{A5D32CBF-521E-4181-8910-EEEEDED6EEAD}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="130144576"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_08" ID="{A5D32CBF-521E-4181-8910-EEEEDED6EEAD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_09" ID="{9C37C688-449A-446A-BAE4-1E47D4E3E3C2}" ShortID="473776273">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_09" ID="{EE55150A-7D0B-4C39-AD9D-E74714CBFB86}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="155040913"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_09" ID="{EE55150A-7D0B-4C39-AD9D-E74714CBFB86}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_10" ID="{269C29F5-8829-4EDE-8AFD-F0E19FFBB272}" ShortID="132085781">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_10" ID="{7C608E4E-67C4-47C4-ABEF-02D6BA7D78AD}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="935238323"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_10" ID="{7C608E4E-67C4-47C4-ABEF-02D6BA7D78AD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_11" ID="{BCE8FCDF-34B9-4163-9437-3CC6FD212BF2}" ShortID="872382784">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_11" ID="{D633E507-0E01-42FE-9736-C55261FD2593}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="727976310"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_11" ID="{D633E507-0E01-42FE-9736-C55261FD2593}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_12" ID="{4E4FF0AE-AE28-45F6-BD06-65FBF747C5C8}" ShortID="226605365">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_12" ID="{EA503BB1-E1B8-445A-83A4-9BB36B858DE3}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="936660920"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_12" ID="{EA503BB1-E1B8-445A-83A4-9BB36B858DE3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_13" ID="{15711931-7891-42B9-8F4F-D86862B0E531}" ShortID="573269935">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_13" ID="{01FAA323-FE64-4895-AE33-D6459816A33E}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="770715650"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_13" ID="{01FAA323-FE64-4895-AE33-D6459816A33E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_14" ID="{B19CA0B5-FF1C-4270-987A-175F0C21D2F6}" ShortID="472680675">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_14" ID="{C97EBE64-92FB-4F55-8FF4-431174DAF5F2}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="408505737"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_14" ID="{C97EBE64-92FB-4F55-8FF4-431174DAF5F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_15" ID="{B5E4169B-1A49-4AFB-9F5C-279714883079}" ShortID="584881873">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_15" ID="{0711C116-ED68-461A-9D09-250C2DBD6DF5}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="281226062"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_15" ID="{0711C116-ED68-461A-9D09-250C2DBD6DF5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_16" ID="{79D50AE9-061F-4EF6-94A0-DD48AAC451D1}" ShortID="61385836">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_16" ID="{AF713677-D687-4632-A1CA-EC178DBF97EA}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="297446441"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_16" ID="{AF713677-D687-4632-A1CA-EC178DBF97EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_17" ID="{896B7FFB-F8ED-46A6-819E-9D9797D1221B}" ShortID="625757545">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_17" ID="{C82FB1F7-816B-4F35-A107-3FE433B63421}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_17.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1054546180"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_17" ID="{C82FB1F7-816B-4F35-A107-3FE433B63421}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_18" ID="{0B73E965-F28C-4E22-A0E0-7C0B061A6C2E}" ShortID="1048196718">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_18" ID="{1DB22666-48B0-4BF2-8BBF-2C94A5375A90}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_18.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="397879695"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_18" ID="{1DB22666-48B0-4BF2-8BBF-2C94A5375A90}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_19" ID="{22D04666-72FB-488C-82B8-A749793BF3E8}" ShortID="961642306">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_19" ID="{851331A0-34BA-45AC-9A99-30C9FCB5BD73}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_19.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="983510942"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_19" ID="{851331A0-34BA-45AC-9A99-30C9FCB5BD73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Stone_Run_MK_20" ID="{39962EA8-0FC7-4306-BF37-CDF561A6A57A}" ShortID="426464289">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Stone_Run_MK_20" ID="{24FA82F7-5CC6-40EE-A127-11C8A24492B8}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Stone_Run_MK_20.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="956794866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Stone_Run_MK_20" ID="{24FA82F7-5CC6-40EE-A127-11C8A24492B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{BCFA4683-4AD9-46C9-90E6-F917AB3B762E}" ShortID="109798463">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="PlayMechanismSpecialTransitionsValue"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Velocity" ID="{B5059771-1407-49D0-907F-474826FEE851}" WorkUnitID="{B1B7DCA5-70AB-4F6E-AF28-742EF77CB7A5}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{36B1D679-75EA-4055-908B-EA5E4AA7ED04}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0.46399</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.89926</XPos>
+																				<YPos>0.46399</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.90026</XPos>
+																				<YPos>0.39872</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>5.19082</XPos>
+																				<YPos>0.39872</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>5.19182</XPos>
+																				<YPos>0.3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>0.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Earth" ID="{057E9C8A-CC2F-424F-9A79-60BC3DC048C2}" ShortID="458172559">
+									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-001" ID="{1C8F26C5-A0A1-41D9-BAC9-7C95DAA24F45}" ShortID="369841862">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-001" ID="{7DE57A3B-758D-4788-915E-FFE49BE9BE46}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="873619485"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-001" ID="{7DE57A3B-758D-4788-915E-FFE49BE9BE46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-002" ID="{EBC68C86-D50A-4BE7-B143-B76E83F13DC5}" ShortID="283913562">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-002" ID="{50E04245-2AE1-463A-85F7-C8E118547B81}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="824540418"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-002" ID="{50E04245-2AE1-463A-85F7-C8E118547B81}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-003" ID="{EC4D99EC-9840-463D-9157-0BBB42201F33}" ShortID="220162379">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-003" ID="{A0D1FE0A-4EA7-4E7D-BB38-6E34081E29FA}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="137447190"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-003" ID="{A0D1FE0A-4EA7-4E7D-BB38-6E34081E29FA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-004" ID="{BB6BEF95-1EAE-4D6C-927C-BCB721FD1232}" ShortID="937526157">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-004" ID="{FB58FA3A-201B-4A2D-8B09-839AAAD63567}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="12417533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-004" ID="{FB58FA3A-201B-4A2D-8B09-839AAAD63567}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-005" ID="{0BB42191-1B86-40ED-9654-0F6C41D69351}" ShortID="587951937">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-005" ID="{B15FB23A-29FF-44F9-AA90-F8B3336614F7}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="567545347"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-005" ID="{B15FB23A-29FF-44F9-AA90-F8B3336614F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-006" ID="{70D59543-0D47-4075-9DB3-FE0C47D50527}" ShortID="1041716401">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-006" ID="{8638B30A-3AD2-4C5D-8CD4-76DA6CBB08E4}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="334760774"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-006" ID="{8638B30A-3AD2-4C5D-8CD4-76DA6CBB08E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-007" ID="{2D23E157-AB4D-4E1F-8DBB-331A0B033ED9}" ShortID="852999406">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-007" ID="{93AFA02F-C61E-4AA7-B2F7-AE08D5FC5E2C}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="421969881"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-007" ID="{93AFA02F-C61E-4AA7-B2F7-AE08D5FC5E2C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-008" ID="{D7E326E4-AD09-4EB3-B8F4-548B3EDD28E2}" ShortID="913941036">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-008" ID="{0F1C2CCA-3229-4EB5-A356-05873238ED3B}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="216006467"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-008" ID="{0F1C2CCA-3229-4EB5-A356-05873238ED3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-009" ID="{82A39DA4-C5BB-4CE0-9327-D601985AB005}" ShortID="207039753">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-009" ID="{99FAD922-0BB2-4A0D-A63E-4CC3576A5DB6}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="36212887"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-009" ID="{99FAD922-0BB2-4A0D-A63E-4CC3576A5DB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-010" ID="{ED22B455-F591-4405-BA6C-72556B5F0A11}" ShortID="219928668">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-010" ID="{3BF9F28A-C26B-4F42-8806-5AE3E01EAC43}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="28872246"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-010" ID="{3BF9F28A-C26B-4F42-8806-5AE3E01EAC43}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-011" ID="{C387F33B-AC2E-4FF6-B6E7-751E44C6B294}" ShortID="801352272">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-011" ID="{C4AB7002-BEF6-40CE-9293-47A27DE5EE97}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-011.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="61381947"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-011" ID="{C4AB7002-BEF6-40CE-9293-47A27DE5EE97}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-012" ID="{620E86D9-AD27-4A06-A380-2DB9EC36E179}" ShortID="246081232">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-012" ID="{F4D7C580-6ADA-44CE-A080-5E06EBEAD6E4}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-012.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="980474674"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-012" ID="{F4D7C580-6ADA-44CE-A080-5E06EBEAD6E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-013" ID="{B21B0AFE-2808-41C5-AFC6-3088694961C0}" ShortID="409838431">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-013" ID="{ED1675B5-3462-4E45-B999-9FF50A8AE353}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-013.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="367747893"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-013" ID="{ED1675B5-3462-4E45-B999-9FF50A8AE353}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-014" ID="{1E37600D-1C00-4861-8FDF-8D7D4990C139}" ShortID="212166310">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-014" ID="{D86D9713-E6D6-4F50-AF14-3E4CA734C28E}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-014.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="130659488"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-014" ID="{D86D9713-E6D6-4F50-AF14-3E4CA734C28E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-015" ID="{74C6CFA3-B169-4EBE-89E9-E76C34545698}" ShortID="201705111">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-015" ID="{A811F14D-C3B5-4E5D-BB7A-52E0FFA0577B}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-015.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1005874871"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-015" ID="{A811F14D-C3B5-4E5D-BB7A-52E0FFA0577B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-016" ID="{66E0B17F-2DA8-4A64-9A6D-FE29271AAD54}" ShortID="954996766">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-016" ID="{77E49D0C-6CBB-44E6-9EE1-FDBFF28DEA4F}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-016.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="307378318"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-016" ID="{77E49D0C-6CBB-44E6-9EE1-FDBFF28DEA4F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Earth_Run MK-017" ID="{227D9EAB-B59F-4A19-9B17-FBA6C19721EB}" ShortID="450350590">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Earth_Run MK-017" ID="{FF8D94E0-AA3A-47BE-8986-925F10369340}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Earth_Run MK-017.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="638237732"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Earth_Run MK-017" ID="{FF8D94E0-AA3A-47BE-8986-925F10369340}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{8F1653F2-222F-4E70-8C4F-06E5C82944C5}" ShortID="382137832">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="PlayMechanismSpecialTransitionsValue"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Velocity" ID="{B5059771-1407-49D0-907F-474826FEE851}" WorkUnitID="{B1B7DCA5-70AB-4F6E-AF28-742EF77CB7A5}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{E1C2EA3C-2718-42E3-A876-56EEC7079537}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0.46399</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.89926</XPos>
+																				<YPos>0.46399</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.90026</XPos>
+																				<YPos>0.39872</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>5.19082</XPos>
+																				<YPos>0.39872</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>5.19182</XPos>
+																				<YPos>0.3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>0.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Grass" ID="{7C7A05E4-9B11-4011-9A62-176DD9E3C151}" ShortID="388301255">
+									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-001" ID="{02F21ACF-E81D-4275-BDC7-E8F6EED9700B}" ShortID="782225299">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-001" ID="{A2CD354D-3F70-4B6F-BCB7-D92760D884CF}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="112906369"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-001" ID="{A2CD354D-3F70-4B6F-BCB7-D92760D884CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-002" ID="{7D73E12D-5C7F-4A70-A643-7C8D98BF104A}" ShortID="929989477">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-002" ID="{B77CDAC1-3ED3-4FFB-BB05-332A2B5D1323}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="668209196"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-002" ID="{B77CDAC1-3ED3-4FFB-BB05-332A2B5D1323}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-003" ID="{3E791C59-6040-4FB5-8543-9CBD9304B553}" ShortID="795801069">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-003" ID="{36DF37BE-D27D-47E5-8DD3-911FD9AC473E}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="503037437"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-003" ID="{36DF37BE-D27D-47E5-8DD3-911FD9AC473E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-004" ID="{DED6FA42-79B9-495E-8A6D-779AFFA7B9BD}" ShortID="147813420">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-004" ID="{BC30B5A9-4586-4532-9DED-6E925C5E0F59}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620878847"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-004" ID="{BC30B5A9-4586-4532-9DED-6E925C5E0F59}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-005" ID="{119AD874-756D-4F8B-8889-AA67567BEF0F}" ShortID="1045835248">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-005" ID="{A06990B6-A84F-46DF-B472-56AE8CEA619D}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="725069890"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-005" ID="{A06990B6-A84F-46DF-B472-56AE8CEA619D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-006" ID="{E976915C-A4BF-4FBD-AA4F-39D81045878F}" ShortID="84702807">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-006" ID="{AC683919-0695-4FF6-8550-94E5E794ACA5}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816369348"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-006" ID="{AC683919-0695-4FF6-8550-94E5E794ACA5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-007" ID="{CE17A76E-0CDE-4E9F-ABC9-DA9C2A649A6D}" ShortID="1072425954">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-007" ID="{EAFC1203-3399-464C-B144-BFFFC397274A}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="962507551"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-007" ID="{EAFC1203-3399-464C-B144-BFFFC397274A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-008" ID="{3688E95C-60EE-4FBB-BD18-3D1E90B2877E}" ShortID="290673849">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-008" ID="{BFAD165C-E615-4B19-BDBF-051B55CCFB22}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="432107731"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-008" ID="{BFAD165C-E615-4B19-BDBF-051B55CCFB22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-009" ID="{D176B678-013D-43B3-9D2D-871613F97ECB}" ShortID="978734693">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-009" ID="{4706AEDE-B2C3-4B4B-BD0A-070DDF43E5DF}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="365837523"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-009" ID="{4706AEDE-B2C3-4B4B-BD0A-070DDF43E5DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-010" ID="{6214C9D2-626C-4453-AB1B-BE9FE083E338}" ShortID="320009814">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-010" ID="{EDB1E51A-0529-4556-9567-909B318CE118}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="314739090"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-010" ID="{EDB1E51A-0529-4556-9567-909B318CE118}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-011" ID="{7CB098A7-5EC2-4565-B916-9A2E9B496BDB}" ShortID="169149946">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-011" ID="{0ACC9C31-F9FA-4332-B4AC-B25DFC10ED2B}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-011.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="225290939"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-011" ID="{0ACC9C31-F9FA-4332-B4AC-B25DFC10ED2B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-012" ID="{C70132A0-DBD7-44E3-A5A3-A9CCD961C5A6}" ShortID="888194641">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-012" ID="{FD59CA27-DD6B-49ED-A510-7EF7AB17BFC3}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-012.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="605688157"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-012" ID="{FD59CA27-DD6B-49ED-A510-7EF7AB17BFC3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-013" ID="{50416985-9161-4CCE-889C-CE91D31B346C}" ShortID="504784659">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-013" ID="{EF894D3F-26E8-426F-8364-E1F0C8856119}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-013.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="931090221"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-013" ID="{EF894D3F-26E8-426F-8364-E1F0C8856119}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-014" ID="{9A2F4B8F-66F7-4250-85B1-8B3CC9607D6D}" ShortID="455807139">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-014" ID="{E05588DD-DE4A-4A00-985B-4A3B20A6C90C}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-014.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="709609046"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-014" ID="{E05588DD-DE4A-4A00-985B-4A3B20A6C90C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-015" ID="{CD0E85DF-348E-4AD1-9644-EDB8FEAC390F}" ShortID="81332193">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-015" ID="{C3FDA0C3-5A18-4173-AF94-96F332085A8A}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-015.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="112525053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-015" ID="{C3FDA0C3-5A18-4173-AF94-96F332085A8A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-016" ID="{722061BD-44B0-45D8-ABDF-8457EA599BE6}" ShortID="510038504">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-016" ID="{2AC9C9E6-02A2-420D-BD7F-CD7CDA9CE257}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-016.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="170060322"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-016" ID="{2AC9C9E6-02A2-420D-BD7F-CD7CDA9CE257}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-017" ID="{22186368-BDEF-4D5B-B4B8-A8844E41077D}" ShortID="1008573893">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-017" ID="{235993BF-B31A-46D2-8475-4B582E35A250}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-017.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="251381418"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-017" ID="{235993BF-B31A-46D2-8475-4B582E35A250}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-018" ID="{E8DEF2AF-9B5C-4360-821C-CCF065BB5A08}" ShortID="367249829">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-018" ID="{F1A3983F-5E92-4E46-8CCC-F8EFB7BC991C}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-018.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="112796662"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-018" ID="{F1A3983F-5E92-4E46-8CCC-F8EFB7BC991C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-019" ID="{FE98A2B2-FC7C-468C-A4EB-D5289A5F28D0}" ShortID="226322011">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-019" ID="{73B88900-29DC-48E5-AD5A-8B8D10C8AFA9}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-019.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1057317657"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-019" ID="{73B88900-29DC-48E5-AD5A-8B8D10C8AFA9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ellen_Footsteps_Grass_Run MK 2-020" ID="{4BD964DB-116F-41D6-A573-636083431927}" ShortID="865524430">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ellen_Footsteps_Grass_Run MK 2-020" ID="{5149680E-75DB-42C1-A41A-D95DAC00CB1C}">
+													<Language>SFX</Language>
+													<AudioFile>Ellen_Footsteps_Grass_Run MK 2-020.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="6931871"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ellen_Footsteps_Grass_Run MK 2-020" ID="{5149680E-75DB-42C1-A41A-D95DAC00CB1C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{95F9C518-244B-4302-A5FE-5511215D6E2B}" ShortID="267948882">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="PlayMechanismSpecialTransitionsValue"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Velocity" ID="{B5059771-1407-49D0-907F-474826FEE851}" WorkUnitID="{B1B7DCA5-70AB-4F6E-AF28-742EF77CB7A5}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{D78C9D6D-BE46-4427-8EB4-CBD91A98B2C7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0.46399</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.89926</XPos>
+																				<YPos>0.46399</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.90026</XPos>
+																				<YPos>0.39872</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>5.19082</XPos>
+																				<YPos>0.39872</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>5.19182</XPos>
+																				<YPos>0.3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>0.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Puddle" ID="{CD14537F-F9D9-454F-A911-5D1E211B6D2A}" ShortID="833018684">
+									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MK Mud Footsteps - 01" ID="{59427E4F-574F-4BEA-8F35-C6DE051D9A6E}" ShortID="429448167">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 01" ID="{2BF3A421-7F27-4E59-92A8-F04BEF243472}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="452510443"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 01" ID="{2BF3A421-7F27-4E59-92A8-F04BEF243472}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 02" ID="{1E12C813-DA46-4797-8632-36C6CE2AAC68}" ShortID="715441853">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 02" ID="{752883C8-B710-4A13-92D3-E25A9847ECA8}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="427956978"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 02" ID="{752883C8-B710-4A13-92D3-E25A9847ECA8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 03" ID="{E9A3F15B-10C7-4BF1-8A3D-5D39AB1DE49A}" ShortID="661081324">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 03" ID="{7BE5BC80-D2C7-414D-9574-079468A50AD2}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="36672919"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 03" ID="{7BE5BC80-D2C7-414D-9574-079468A50AD2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 04" ID="{B9C3186F-2B9E-424F-B5C9-B3977B04333F}" ShortID="435252539">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 04" ID="{4F982358-A678-4464-83E9-4B286F94E741}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="90595272"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 04" ID="{4F982358-A678-4464-83E9-4B286F94E741}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 05" ID="{A704C7F4-C7E8-4AE4-8D3B-4C63762173F3}" ShortID="65479344">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 05" ID="{26B251CF-3638-4653-95DC-AB61140A5414}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="694661793"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 05" ID="{26B251CF-3638-4653-95DC-AB61140A5414}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 06" ID="{71048EC9-1155-4A31-A64E-D45EC2DE1267}" ShortID="1045766253">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 06" ID="{C29F4D29-1F6C-4C34-9D9E-1F3BFB6D2738}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="224591711"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 06" ID="{C29F4D29-1F6C-4C34-9D9E-1F3BFB6D2738}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 07" ID="{D23CE2B9-1916-4D31-8533-CA57176CA5A0}" ShortID="903306428">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 07" ID="{7D375223-4929-4153-88C4-583675E2A33A}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="563976577"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 07" ID="{7D375223-4929-4153-88C4-583675E2A33A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 08" ID="{A85B0498-8A7F-4FD8-9EFA-811EEE43569A}" ShortID="896860585">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 08" ID="{F0404C26-368D-48A5-A6C7-F5FEEF985B57}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="725545071"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 08" ID="{F0404C26-368D-48A5-A6C7-F5FEEF985B57}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 09" ID="{5AAE6E48-6FF5-4157-BF56-F23497610DBC}" ShortID="294557181">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 09" ID="{FD437C0C-C546-4315-BC80-00F52319075D}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="393224776"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 09" ID="{FD437C0C-C546-4315-BC80-00F52319075D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 10" ID="{BC6D4BFE-A170-45B0-83EA-98DCD47E1F49}" ShortID="408349870">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 10" ID="{9A340629-97F2-4183-9301-70A083684753}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="861428213"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 10" ID="{9A340629-97F2-4183-9301-70A083684753}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 11" ID="{F288E88B-4EAB-4EA6-AE7C-B3DEB7288E0E}" ShortID="794763786">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 11" ID="{2D5F6AF3-1726-493C-87F0-03E7E5D70C80}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="101639346"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 11" ID="{2D5F6AF3-1726-493C-87F0-03E7E5D70C80}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 12" ID="{EBAB200A-43DF-4ECD-96AA-8772ABC461DE}" ShortID="628390917">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 12" ID="{6976A52F-D8F8-4CFC-888F-17FC5A62AF63}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="445680975"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 12" ID="{6976A52F-D8F8-4CFC-888F-17FC5A62AF63}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 13" ID="{AF455BAF-949A-49FE-8CFF-3AD3DD9E1070}" ShortID="467167273">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 13" ID="{6E7D1D7A-67E1-4D62-9A54-CBBBD077CA2A}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="764245324"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 13" ID="{6E7D1D7A-67E1-4D62-9A54-CBBBD077CA2A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 14" ID="{B7B8505D-D5CC-4895-BD8B-16FBE1808DF1}" ShortID="1028396963">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 14" ID="{834D54F7-AC82-49D7-9A6B-2CB4E5C17F9B}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="229275127"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 14" ID="{834D54F7-AC82-49D7-9A6B-2CB4E5C17F9B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 15" ID="{5FC9EC10-6C42-49F2-98B1-FA2BCF656DE1}" ShortID="53561250">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 15" ID="{BD7D03C5-97D4-4F6E-90E7-68E6A9DAEBA6}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981807337"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 15" ID="{BD7D03C5-97D4-4F6E-90E7-68E6A9DAEBA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 16" ID="{C07D86C9-B553-4B74-96BF-2CAE633DE8F1}" ShortID="795437634">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 16" ID="{64D507DD-E433-4EC1-A451-F2791AE07E0D}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="6380718"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 16" ID="{64D507DD-E433-4EC1-A451-F2791AE07E0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 17" ID="{79E90460-1E76-4970-B54F-39DB4D83F87E}" ShortID="10005272">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 17" ID="{A6200991-FB62-4FDC-8C3E-EADDDCB9764D}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 17.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="522907999"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 17" ID="{A6200991-FB62-4FDC-8C3E-EADDDCB9764D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 18" ID="{E8C418D1-D7D3-48D4-A253-09FD0F2E782C}" ShortID="1007564999">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 18" ID="{B4D96375-AD29-43B2-B492-D269A4048A2F}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 18.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1039066103"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 18" ID="{B4D96375-AD29-43B2-B492-D269A4048A2F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 19" ID="{C832ABF5-9F81-46F4-AC75-BA8FB36681E3}" ShortID="943761609">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 19" ID="{E700A81A-A5A5-4B96-9C20-D35BAA6D7647}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 19.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="993190224"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 19" ID="{E700A81A-A5A5-4B96-9C20-D35BAA6D7647}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MK Mud Footsteps - 20" ID="{89BB9302-AACC-4596-B355-3137A6EF4809}" ShortID="601933362">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MK Mud Footsteps - 20" ID="{F93214C2-DE88-414D-A1A7-270E43779E75}">
+													<Language>SFX</Language>
+													<AudioFile>MK Mud Footsteps - 20.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="450843265"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MK Mud Footsteps - 20" ID="{F93214C2-DE88-414D-A1A7-270E43779E75}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{997784B6-9EEE-4B1E-858D-04D13CCF2512}" ShortID="89705538">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="PlayMechanismSpecialTransitionsValue"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Velocity" ID="{B5059771-1407-49D0-907F-474826FEE851}" WorkUnitID="{B1B7DCA5-70AB-4F6E-AF28-742EF77CB7A5}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{D004D322-328F-4776-94C7-705019B73EE3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0.46399</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.89926</XPos>
+																				<YPos>0.46399</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.90026</XPos>
+																				<YPos>0.39872</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>5.19082</XPos>
+																				<YPos>0.39872</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>5.19182</XPos>
+																				<YPos>0.3</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>0.3</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Puddle" ID="{CD14537F-F9D9-454F-A911-5D1E211B6D2A}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.02</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Earth" ID="{057E9C8A-CC2F-424F-9A79-60BC3DC048C2}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.02</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Concrete" ID="{4ED5BD8F-B020-408A-AA2A-9924C755BE06}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.02</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Grass" ID="{7C7A05E4-9B11-4011-9A62-176DD9E3C151}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.02</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Gravel" ID="{DA17F103-40CA-46AF-9D43-FCA5402EA520}"/>
+										<ItemList>
+											<ItemRef Name="Earth" ID="{057E9C8A-CC2F-424F-9A79-60BC3DC048C2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{4160552E-915A-4737-B029-8BD44D76166A}"/>
+										<ItemList>
+											<ItemRef Name="Grass" ID="{7C7A05E4-9B11-4011-9A62-176DD9E3C151}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Puddle" ID="{51E04F93-B1F9-4C0E-A5BE-40AD2809E190}"/>
+										<ItemList>
+											<ItemRef Name="Puddle" ID="{CD14537F-F9D9-454F-A911-5D1E211B6D2A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Concrete" ID="{F8814CC2-A327-4DEC-BD07-2083DC6347F7}"/>
+										<ItemList>
+											<ItemRef Name="Concrete" ID="{4ED5BD8F-B020-408A-AA2A-9924C755BE06}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Interactables" ID="{8D674429-9E77-4D93-BDE4-11F93B4B540E}" ShortID="383271561">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Light_Switch" ID="{70833262-203E-4D13-9C3D-4B39C228A1AF}" ShortID="607947144">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7E3FBEC6-D035-4D31-A081-AB4C1B8A0485}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{D2C363D8-F9EF-4FD9-A74C-BEC3A2746528}" ShortID="835616909">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{6E3C02D7-6434-4CD6-9C47-0917401A8835}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LightSwitch-001" ID="{B4D2FEFB-8E48-4E26-A4FF-4FD3A042C83F}" ShortID="971393040">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LightSwitch-001" ID="{C2F167D0-104F-4847-A781-2BBFB2574C62}">
+											<Language>SFX</Language>
+											<AudioFile>LightSwitch-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="950650839"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LightSwitch-001" ID="{C2F167D0-104F-4847-A781-2BBFB2574C62}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LightSwitch-002" ID="{91E626D5-32BD-4004-80E1-3259705F5518}" ShortID="900912091">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LightSwitch-002" ID="{1403A30F-8832-4C00-97C2-0E80FDEFC68D}">
+											<Language>SFX</Language>
+											<AudioFile>LightSwitch-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280755735"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LightSwitch-002" ID="{1403A30F-8832-4C00-97C2-0E80FDEFC68D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LightSwitch-003" ID="{69EA3B9D-39D7-464A-A46D-5DBE71215027}" ShortID="20947044">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LightSwitch-003" ID="{8431E5B7-937A-4C12-BED1-B19C4CC1EE57}">
+											<Language>SFX</Language>
+											<AudioFile>LightSwitch-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="748952675"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LightSwitch-003" ID="{8431E5B7-937A-4C12-BED1-B19C4CC1EE57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LightSwitch-004" ID="{6692DB3A-83C1-41E8-A0B9-93858BD3E9E0}" ShortID="1048330452">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LightSwitch-004" ID="{E453E6C0-C7D1-4956-B5C4-9B7EBE0CBDF5}">
+											<Language>SFX</Language>
+											<AudioFile>LightSwitch-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665887871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LightSwitch-004" ID="{E453E6C0-C7D1-4956-B5C4-9B7EBE0CBDF5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<BlendContainer Name="Open_Door" ID="{71B360F9-02BE-4794-BA7F-192DB2EF81EA}" ShortID="281668852">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{736439DB-F4AC-489C-8D0F-43108022866F}" ShortID="302674604">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{78CDC5B4-6AC2-4B06-9084-7E4D62B57989}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Click" ID="{5EBB7A2E-2CD4-4FAD-B3B5-A91EBFB6FCF5}" ShortID="1001821214">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Simple_Door_Handle--001" ID="{434B2D2A-E042-45FD-8B21-B2CD2B5B033F}" ShortID="225308102">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Simple_Door_Handle--001" ID="{6C328E89-3CEB-431E-8538-FB0C7083A7E0}">
+													<Language>SFX</Language>
+													<AudioFile>Simple_Door_Handle--001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="155689453"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Simple_Door_Handle--001" ID="{6C328E89-3CEB-431E-8538-FB0C7083A7E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Simple_Door_Handle--002" ID="{6596C6A9-AC6E-41ED-BFC1-8B4CD809D35A}" ShortID="707842727">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Simple_Door_Handle--002" ID="{8C5E9011-FACC-49EF-9223-E6E26DCC7D28}">
+													<Language>SFX</Language>
+													<AudioFile>Simple_Door_Handle--002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="754979357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Simple_Door_Handle--002" ID="{8C5E9011-FACC-49EF-9223-E6E26DCC7D28}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Simple_Door_Handle--003" ID="{FE88711F-C8B5-4343-B74F-33391522C0A4}" ShortID="844215093">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Simple_Door_Handle--003" ID="{58517F17-EF47-4460-8A81-6EB765A9DA8C}">
+													<Language>SFX</Language>
+													<AudioFile>Simple_Door_Handle--003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="324015522"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Simple_Door_Handle--003" ID="{58517F17-EF47-4460-8A81-6EB765A9DA8C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Simple_Door_Handle--004" ID="{6EC3CD0C-B48F-43D7-A16D-47FAF8AC921E}" ShortID="216340010">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Simple_Door_Handle--004" ID="{B5C11827-F28E-4C06-BE3D-546C95281305}">
+													<Language>SFX</Language>
+													<AudioFile>Simple_Door_Handle--004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338573660"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Simple_Door_Handle--004" ID="{B5C11827-F28E-4C06-BE3D-546C95281305}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Creek" ID="{AAC09F98-344A-4BAE-A1BE-DD2A2F27339B}" ShortID="1035566059">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.03</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Simple_Door_Creek--001" ID="{400688DB-AA95-4E5F-BAAC-9449817E7AAE}" ShortID="951187776">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Simple_Door_Creek--001" ID="{FAF8CB19-6BCD-4113-B55C-97E70415096C}">
+													<Language>SFX</Language>
+													<AudioFile>Simple_Door_Creek--001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="74896485"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Simple_Door_Creek--001" ID="{FAF8CB19-6BCD-4113-B55C-97E70415096C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Simple_Door_Creek--002" ID="{2D437EBA-A6C4-4EAE-9EEB-F08DB4067D57}" ShortID="206074017">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Simple_Door_Creek--002" ID="{FCBD1707-AA80-4BED-9606-E7F696AD4377}">
+													<Language>SFX</Language>
+													<AudioFile>Simple_Door_Creek--002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="38367341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Simple_Door_Creek--002" ID="{FCBD1707-AA80-4BED-9606-E7F696AD4377}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Simple_Door_Creek--003" ID="{202E8CAF-8B82-4A32-B872-EDBA74727555}" ShortID="646586737">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Simple_Door_Creek--003" ID="{FED4B1DE-F0BD-422D-9E78-1C46F4E2CBCC}">
+													<Language>SFX</Language>
+													<AudioFile>Simple_Door_Creek--003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="795460904"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Simple_Door_Creek--003" ID="{FED4B1DE-F0BD-422D-9E78-1C46F4E2CBCC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Simple_Door_Creek--004" ID="{C178D165-8991-4FA8-99A6-F71466286DCD}" ShortID="565210334">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{056B7778-B670-42D4-A5C0-17C7DB6BEE5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C805CA09-4FBD-4A75-8519-F03C7F13FF6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Simple_Door_Creek--004" ID="{811D2228-C703-4E47-A2D5-3B21BD9FC0CC}">
+													<Language>SFX</Language>
+													<AudioFile>Simple_Door_Creek--004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="210549907"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Simple_Door_Creek--004" ID="{811D2228-C703-4E47-A2D5-3B21BD9FC0CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{BD044043-035C-4E39-A15F-7B76F910CECC}" ShortID="752908757">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Click" ID="{5EBB7A2E-2CD4-4FAD-B3B5-A91EBFB6FCF5}"/>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Creek" ID="{AAC09F98-344A-4BAE-A1BE-DD2A2F27339B}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

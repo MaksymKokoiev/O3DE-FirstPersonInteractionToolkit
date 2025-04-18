@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Linux" BasePlatform="Linux" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../wwise_project</ProjectRoot>
+		<SourceFilesRoot>../wwise_project/.cache/Linux</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../wwise_project/GeneratedSoundBanks/Linux</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="782826392" Type="User" Language="SFX" Hash="{EC24A787-6104-C21B-8BFD-EA26F33F3647}">
+			<ShortName>default</ShortName>
+			<Path>default.bnk</Path>
+			<Media>
+				<File Id="6380718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 16.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="6931871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-020.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-020_10C4C929.wem</CachePath>
+				</File>
+				<File Id="12417533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-004.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="28872246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-010.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="36212887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-009.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="36672919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 03.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="38367341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Simple_Door_Creek--002.wav</ShortName>
+					<CachePath>SFX/Simple_Door_Creek--002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="61381947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-011.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="74896485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Simple_Door_Creek--001.wav</ShortName>
+					<CachePath>SFX/Simple_Door_Creek--001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="90595272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 04.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="101639346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 11.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="112525053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-015.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-015_10C4C929.wem</CachePath>
+				</File>
+				<File Id="112796662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-018.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-018_10C4C929.wem</CachePath>
+				</File>
+				<File Id="112906369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-001.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="130144576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_08.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="130659488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-014.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-014_10C4C929.wem</CachePath>
+				</File>
+				<File Id="137447190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-003.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="155040913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_09.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="155689453" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Simple_Door_Handle--001.wav</ShortName>
+					<CachePath>SFX/Simple_Door_Handle--001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="170060322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-016.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-016_10C4C929.wem</CachePath>
+				</File>
+				<File Id="210549907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Simple_Door_Creek--004.wav</ShortName>
+					<CachePath>SFX/Simple_Door_Creek--004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="216006467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-008.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="224591711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 06.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="225290939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-011.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="228546115" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gun_blaster_no_trigger_shot_1.wav</ShortName>
+					<CachePath>SFX/gun_blaster_no_trigger_shot_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="229275127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 14.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="251381418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-017.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-017_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280755735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightSwitch-002.wav</ShortName>
+					<CachePath>SFX/LightSwitch-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="281226062" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_15.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="297446441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_16.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="307378318" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-016.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-016_10C4C929.wem</CachePath>
+				</File>
+				<File Id="314739090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-010.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="324015522" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Simple_Door_Handle--003.wav</ShortName>
+					<CachePath>SFX/Simple_Door_Handle--003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="334760774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-006.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338573660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Simple_Door_Handle--004.wav</ShortName>
+					<CachePath>SFX/Simple_Door_Handle--004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="365837523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-009.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="367747893" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-013.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="393224776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 09.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="397879695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_18.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_18_10C4C929.wem</CachePath>
+				</File>
+				<File Id="408505737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_14.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="421969881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-007.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="427956978" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 02.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="432107731" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-008.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="445680975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 12.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="450843265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 20.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 20_10C4C929.wem</CachePath>
+				</File>
+				<File Id="452510443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 01.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="456386806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_01.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="503037437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-003.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="522907999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 17.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 17_10C4C929.wem</CachePath>
+				</File>
+				<File Id="563976577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 07.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="567545347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-005.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="605688157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-012.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="620878847" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-004.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="638237732" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-017.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-017_10C4C929.wem</CachePath>
+				</File>
+				<File Id="638504098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_02.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="665887871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightSwitch-004.wav</ShortName>
+					<CachePath>SFX/LightSwitch-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="668209196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-002.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="694661793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 05.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="709609046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-014.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-014_10C4C929.wem</CachePath>
+				</File>
+				<File Id="723914433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_04.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="725069890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-005.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="725545071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 08.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="727976310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_11.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="748952675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightSwitch-003.wav</ShortName>
+					<CachePath>SFX/LightSwitch-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="754979357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Simple_Door_Handle--002.wav</ShortName>
+					<CachePath>SFX/Simple_Door_Handle--002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="764245324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 13.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="770715650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_13.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="795460904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Simple_Door_Creek--003.wav</ShortName>
+					<CachePath>SFX/Simple_Door_Creek--003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="816369348" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-006.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="823275296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_05.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="824540418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-002.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="840493079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_03.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="861428213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 10.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="873619485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-001.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="931090221" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-013.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="935238323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_10.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="936660920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_12.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="950650839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightSwitch-001.wav</ShortName>
+					<CachePath>SFX/LightSwitch-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="950832186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_06.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="956794866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_20.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_20_10C4C929.wem</CachePath>
+				</File>
+				<File Id="962507551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-007.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="980474674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-012.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="981807337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 15.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="983510942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_19.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_19_10C4C929.wem</CachePath>
+				</File>
+				<File Id="993190224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 19.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 19_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1005874871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Earth_Run MK-015.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Earth_Run MK-015_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1039066103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MK Mud Footsteps - 18.wav</ShortName>
+					<CachePath>SFX/MK Mud Footsteps - 18_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1054546180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_17.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_17_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1057317657" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Grass_Run MK 2-019.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Grass_Run MK 2-019_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1057938833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Footsteps_Stone_Run_MK_07.wav</ShortName>
+					<CachePath>SFX/Ellen_Footsteps_Stone_Run_MK_07_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="790135102" Name="Light_Switch">
+					<MediaRefs>
+						<MediaRef Id="280755735"/>
+						<MediaRef Id="665887871"/>
+						<MediaRef Id="748952675"/>
+						<MediaRef Id="950650839"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2934549620" Name="Open_Door">
+					<MediaRefs>
+						<MediaRef Id="38367341"/>
+						<MediaRef Id="74896485"/>
+						<MediaRef Id="155689453"/>
+						<MediaRef Id="210549907"/>
+						<MediaRef Id="324015522"/>
+						<MediaRef Id="338573660"/>
+						<MediaRef Id="754979357"/>
+						<MediaRef Id="795460904"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3057162532" Name="Play_Blaster_Shot">
+					<MediaRefs>
+						<MediaRef Id="228546115"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="948075460" Name="Start_Mov">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="12417533"/>
+								<MediaRef Id="28872246"/>
+								<MediaRef Id="36212887"/>
+								<MediaRef Id="61381947"/>
+								<MediaRef Id="130659488"/>
+								<MediaRef Id="137447190"/>
+								<MediaRef Id="216006467"/>
+								<MediaRef Id="307378318"/>
+								<MediaRef Id="334760774"/>
+								<MediaRef Id="367747893"/>
+								<MediaRef Id="421969881"/>
+								<MediaRef Id="567545347"/>
+								<MediaRef Id="638237732"/>
+								<MediaRef Id="824540418"/>
+								<MediaRef Id="873619485"/>
+								<MediaRef Id="980474674"/>
+								<MediaRef Id="1005874871"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="6931871"/>
+								<MediaRef Id="112525053"/>
+								<MediaRef Id="112796662"/>
+								<MediaRef Id="112906369"/>
+								<MediaRef Id="170060322"/>
+								<MediaRef Id="225290939"/>
+								<MediaRef Id="251381418"/>
+								<MediaRef Id="314739090"/>
+								<MediaRef Id="365837523"/>
+								<MediaRef Id="432107731"/>
+								<MediaRef Id="503037437"/>
+								<MediaRef Id="605688157"/>
+								<MediaRef Id="620878847"/>
+								<MediaRef Id="668209196"/>
+								<MediaRef Id="709609046"/>
+								<MediaRef Id="725069890"/>
+								<MediaRef Id="816369348"/>
+								<MediaRef Id="931090221"/>
+								<MediaRef Id="962507551"/>
+								<MediaRef Id="1057317657"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2003927601"/>
+							<MediaRefs>
+								<MediaRef Id="6380718"/>
+								<MediaRef Id="36672919"/>
+								<MediaRef Id="90595272"/>
+								<MediaRef Id="101639346"/>
+								<MediaRef Id="224591711"/>
+								<MediaRef Id="229275127"/>
+								<MediaRef Id="393224776"/>
+								<MediaRef Id="427956978"/>
+								<MediaRef Id="445680975"/>
+								<MediaRef Id="450843265"/>
+								<MediaRef Id="452510443"/>
+								<MediaRef Id="522907999"/>
+								<MediaRef Id="563976577"/>
+								<MediaRef Id="694661793"/>
+								<MediaRef Id="725545071"/>
+								<MediaRef Id="764245324"/>
+								<MediaRef Id="861428213"/>
+								<MediaRef Id="981807337"/>
+								<MediaRef Id="993190224"/>
+								<MediaRef Id="1039066103"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="130144576"/>
+								<MediaRef Id="155040913"/>
+								<MediaRef Id="281226062"/>
+								<MediaRef Id="297446441"/>
+								<MediaRef Id="397879695"/>
+								<MediaRef Id="408505737"/>
+								<MediaRef Id="456386806"/>
+								<MediaRef Id="638504098"/>
+								<MediaRef Id="723914433"/>
+								<MediaRef Id="727976310"/>
+								<MediaRef Id="770715650"/>
+								<MediaRef Id="823275296"/>
+								<MediaRef Id="840493079"/>
+								<MediaRef Id="935238323"/>
+								<MediaRef Id="936660920"/>
+								<MediaRef Id="950832186"/>
+								<MediaRef Id="956794866"/>
+								<MediaRef Id="983510942"/>
+								<MediaRef Id="1054546180"/>
+								<MediaRef Id="1057938833"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="938510246" Name="Stop_Mov"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3519441192" Name="Velocity"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2003927601" Name="Puddle"/>
+						<Switch Id="2185786256" Name="Gravel"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5F965AAA-559A-94F4-7CA5-AA8544CFCDA4}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1551236760" Name="Small_Wooden_Room1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="428078546" Name="roomaux">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1551236760"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="3519441192" Name="Velocity"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2003927601" Name="Puddle"/>
+						<Switch Id="2185786256" Name="Gravel"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7334D89F-7646-2EB1-3C21-9EFC4CC718CE}</FileHash>
+</SoundBanksInfo>
